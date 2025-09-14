@@ -246,6 +246,7 @@ export default function App() {
               onRowSelect={onRowSelect}
               onRowUnselect={onRowSelect}
               dataKey="id"
+              selectionMode="multiple"
               tableStyle={{ minWidth: '50rem' }}
 
             >
